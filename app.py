@@ -5,10 +5,10 @@ from io import BytesIO
 import pickle
 import recommender
 
-
 st.set_page_config(layout="wide")
 
 df = pickle.load(open("Pickle Files/img_url.pkl", "rb"))
+
 
 st.markdown(
     """
@@ -16,7 +16,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 option = st.selectbox(
     'Choice your Anime',

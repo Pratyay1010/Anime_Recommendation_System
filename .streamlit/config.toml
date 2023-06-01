@@ -1,0 +1,13 @@
+[theme]
+primaryColor = "#2F2140"  # Dark Purple
+backgroundColor = "#000000"  # Black
+secondaryBackgroundColor = "#3F0071"  # Dark Magenta
+textColor = "#FFFFFF"  # White
+font = "sans-serif"
+
+[theme.button]
+backgroundColor = "#3F0071"  # Dark Magenta
+hoverBackgroundColor = "#542D71"  # Hover color
+textColor = "#FFFFFF"  # White
+borderColor = "#3F0071"  # Normal border color
+hoverBorderColor = "#542D71"  # Hover border color
